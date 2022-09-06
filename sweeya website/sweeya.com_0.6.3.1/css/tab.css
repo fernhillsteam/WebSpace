@@ -1,0 +1,107 @@
+li.nav-item {
+    width: 15%;
+}
+
+li.nav-item.product-logo {
+width:20%;
+}
+.tab-style-07 .nav-tabs > li.nav-item > a.nav-link {
+    padding: 0px;
+}
+a.black-clr {
+	color:#ee6f1e;
+}
+p.station {
+	height:80px;
+	margin-bottom:20px !important;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.nav-tabs > li > a { border: none; color: #ffffff; }
+.nav-tabs > li > a::after { content: ""; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.tab-nav > li > a::after { background: ##5a4080 none repeat scroll 0% 0%; color: #fff; }
+.tab-pane { padding: 15px 0; }
+.tab-content{padding:20px}
+.nav-tabs > li  {text-align:center;}
+.card {background: #FFF none repeat scroll 0% 0%; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); margin-bottom: 30px; }
+body{ background: #EDECEC;}
+.tab-style-01 .nav-tabs > li.nav-item {
+    padding: 0px;
+    text-align: center;   
+	border: 1px solid #fff;
+	background:#0060b7;
+	/* min-height: 122px; */
+}
+.tab-style-01.without-number .nav-tabs > li.nav-item > a.nav-link {
+    padding: 20px;
+}
+.nav-tabs > li.nav-item > a.nav-link.active, .nav-tabs > li.nav-item > a.nav-link.active:hover, .nav-tabs > li.nav-item > a.nav-link:hover {
+    background: transparent;
+	border-color:none;
+    cursor: pointer;
+    color: white;
+}
+.nav-tabs > li.nav-item > a.nav-link.active, .tab-style-01 .nav-tabs > li.nav-item.active {
+background: #ee6f1e;
+    border-color: none;
+    color: #ffffff;
+    cursor: pointer;
+	height: 100%;
+}
+.tab-style-01 .nav-tabs > li.nav-item:hover {
+    background: #ee6f1e;
+    color: #fff;
+    cursor: pointer;
+}
+.slider-btn-2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+a.elektro-auto {
+    bottom: -20px;
+}
+@media all and (max-width:724px){
+.nav-tabs > li > a > span {display:none;}	
+.nav-tabs > li > a {padding: 5px 5px;}
+}
+	
+@media screen and (min-width:768px) and (max-width:1024px){
+.nav>li>a>img {
+    max-width: none;
+    width: 100%;
+}
+a.elektro-auto {
+    bottom: 0px;
+}
+.tab-style-01 .nav-tabs > li.nav-item {
+    text-align: left;
+    border: 1px solid #fff;
+    background: #0060b7;
+}
+.tab-style-01.without-number .nav-tabs > li.nav-item > a.nav-link {
+    padding-bottom: 20px;
+}
+.tab-style-01 .nav-tabs > li.nav-item {
+    width:25%;
+}
+}
+@media screen and (max-width:767px){
+.tab-style-01 .nav-tabs > li.nav-item {
+    width: 100%;
+	text-align:center;
+	min-height:100%;
+}
+}
+@media screen and (max-width:768px){
+	.product-box, .elektro {
+    height: 100%;
+}
+}
+@media screen and (max-width:425px){
+.tab-style-01.without-number .nav-tabs > li.nav-item > a.nav-link {
+	padding:20px;
+}
+li.nav-item.product-logo {
+    width: 58%;
+}
+}
