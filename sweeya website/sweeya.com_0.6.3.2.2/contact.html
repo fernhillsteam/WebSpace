@@ -6,10 +6,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    
+	
 <meta name="keywords" content="Oscilloscope,Waveform Generator" />
 <meta name="description" content="Contact Us - Sweeya Tech Solutions" />
-<title>Sweeya Tech Solutions - Oscilloscopes</title>
+<title>Sweeya Tech Solutions - Contact</title>
 <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -64,7 +64,7 @@
 
 <script>
 $(function(){
-    // var wow=new WOW().init();
+	// var wow=new WOW().init();
 })
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -87,28 +87,26 @@ $(function(){
 </head>
 
 <body>
-    <!-- header start -->
+	<!-- header start -->
    <header>
      <a href="index.html" class="logo"><img src="images/sweeya.png" width="120px" height="60px"></a>
       <nav class="navbar">
         <ul>
           <!-- <li><a href="index.html">Home</a></li> -->
           <li><a href="#">Product&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-              <ul style="width: 290px;line-height: 11px;"> 
-                <!-- href="#" target="_blank" -->
-
-                <li><a href="ac-power-sources-spp.html" target="_blank">AC Power Supplies </a></li>
-                <li><a href="pdc.html" target="_blank">DC Power Supplies</a></li>
-                <li><a href="elec-load.html" target="_blank">Electronic Loads</a></li>
-                <li><a href="lcr-meter.html" target="_blank">LCR Meter</a></li>
-                <li><a href="multi.html" target="_blank">Multimeters</a></li>
-                <li><a href="Oscillopscope.html" target="_blank">Oscilloscopes</a></li>
-                <li><a>Safety Testers</a></li>
-                <li><a>Signal Generators</a></li>
-                <li><a>Spectrum Analysers</a></li>
-                <li><a>Vector Network Analysers</a></li>
-                <li><a>Other Meters</a></li>
-                <li><a>Accessories</a></li>             
+              <ul style="width: 220px;">
+                <li><a href="#">AC PowerSupplies</a></li>
+                <li><a href="#">DC PowerSupplies</a></li>
+                <li><a href="#">Electronic Loads</a></li>
+                <li><a href="#">LCR Meter</a></li>
+                <li><a href="#">Multimeters</a></li>
+                <li><a href="#">Oscilloscopes</a></li>
+                <li><a href="#">Safety Testers</a></li>
+                <li><a href="#">Signal Generators</a></li>
+                <li><a href="#">Spectrum Analysers</a></li>
+                <li><a href="#">Vector Network Analysers</a></li>
+                <li><a href="#">Other Meters</a></li>
+                <li><a href="#">Accessories</a></li>             
               </ul>
           </li>
           <li><a href="about.html">About Us</a></li>
@@ -340,9 +338,9 @@ $(function(){
         $('#header .nav-wraps .nav-menu').hide();
     })
 })
-</script>           <div class="account-wrap bre">
-                <div class="cw1200">
-                    <!-- bread start -->
+</script>			<div class="account-wrap bre">
+				<div class="cw1200">
+					<!-- bread start -->
 <div id="bread">
     <div class="cw1400">
         <span>SWEEYA：</span>
@@ -350,44 +348,45 @@ $(function(){
                 <a href="contact.html" class="trans">contact</a>
                             </div>
 </div>
-<!-- bread end -->                  
+<!-- bread end -->					
 <div class="container">  
-  <form id="contact" action="" method="post">
+    <form id="contact" action="https://api.web3forms.com/submit" method="POST">
     <h3>Contact Us</h3>
+        <input type="hidden" name="access_key" value="e5b1a10b-0f0f-46ec-97fb-7caa58266815">
     <fieldset>
-      <input type="text" id="html" placeholder="Your Name"name="fav_language" value="">
+      <input type="text" id="html" placeholder="Your Name"name="name" value="" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Email Address" type="email" tabindex="2" required>
+      <input placeholder="Email Address" type="email" name="email" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Mobile Number" type="tel" tabindex="3" required>
+      <input placeholder="Mobile Number" type="tel" name="mobile" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Company Name" type="text" tabindex="3" required>
+       <input placeholder="Company Name" type="text" name="company" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Product Name" type="text" tabindex="3" required>
+      <input placeholder="Product Name" type="text" name="product" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Country" type="text" tabindex="3" required>
+      <input placeholder="Country" type="text" name="country" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="City" type="text" tabindex="4" required>
+      <input placeholder="City" type="text" name="city" tabindex="4" required>
     </fieldset>
     <fieldset>
-      <textarea placeholder="Your Message" tabindex="5" required></textarea>
+      <textarea placeholder="Your Message"  name="message" tabindex="5" required></textarea>
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+      <button type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
-    <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
   </form>
 </div>
 
-    </div>
-            </div>
-            
+	</div>
+			</div>
+			
 <!-- footer start -->
 <div id="footer">
     <div class="cw1400">
@@ -564,8 +563,8 @@ $(function(){
             return false;
         }
     })
-</script>       </div>
-    </div>
+</script>		</div>
+	</div>
 </body>
 
 <!-- Mirrored from int.siglent.com/account.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Apr 2022 07:12:54 GMT -->
@@ -573,7 +572,7 @@ $(function(){
 
 <script>
 $(document).ready(function() { 
-    var accheight = $('#lib_member .rightContents').height();
-    $('#lib_member .leftMenu').height(accheight);
+	var accheight = $('#lib_member .rightContents').height();
+	$('#lib_member .leftMenu').height(accheight);
 }); 
 </script>
